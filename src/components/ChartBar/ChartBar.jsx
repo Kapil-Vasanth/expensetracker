@@ -10,7 +10,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
-import styles from "./BarChart.module.css";
+import styles from "./ChartBar.module.css";
 
 export default function BarChartComponent({ data }) {
   return (
