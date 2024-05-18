@@ -40,7 +40,7 @@ export default function ExpenseForm({
     }
 
     setBalance((prev) => prev - Number(formData.price));
-
+    console.log(expenseList)
     const lastId = expenseList.length > 0 ? expenseList[0].id : 0;
     setExpenseList((prev) => [{ ...formData, id: lastId + 1 }, ...prev]);
 

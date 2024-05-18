@@ -112,8 +112,8 @@ export default function Home() {
       <Modal isOpen={isOpnExp} setIsOpen={setIsOpnExp}>
         <ExpenseForm
           setIsOpen={setIsOpnExp}
-          expList={expList}
-          setexpList={setexpList}
+          expenseList={expList}
+          setExpenseList={setexpList}
           setBalance={setBalance}
           balance={balance}
         />
